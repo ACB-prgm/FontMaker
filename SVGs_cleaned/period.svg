@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
-<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" version="1.1" viewBox="0 0 200 220" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" version="1.1" viewBox="0 0 200 220" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
     <g transform="translate(-1e3 -1100)">
         
-            
+            <g transform="translate(-1610.4)">
+                
+            </g>
             
             
             <g transform="translate(198.46 1103.9)">
                 <g transform="translate(785.75 -390.32)">
-                    <path d="m116.03 520.87c4.558 0 6.65 3.4 6.212 8.467-0.452 5.245-2.705 7.655-8.354 7.655-4.559 0-7.691-4.283-7.691-8.841s5.274-7.281 9.833-7.281z"/>
+                    <path d="m116.03 520.87c4.558 0 6.65 3.4 6.212 8.467-0.452 5.245-2.705 7.655-8.354 7.655-4.559 0-7.691-4.283-7.691-8.841s5.274-7.281 9.833-7.281z" stroke="#000" stroke-width="16.67px"/>
                 </g>
             </g>
         

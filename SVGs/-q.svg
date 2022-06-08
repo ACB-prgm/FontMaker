@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-600,-660)">
+        <g id="Glyphs">
+            <g id="Numbers">
+            </g>
+            <g id="Lowercase">
+                <g transform="matrix(1,0,0,1,-1601.55,-1.13687e-13)">
+                    <path d="M2302.81,818.743C2301.98,832.675 2301.16,843.333 2301.16,843.333C2301.16,850.807 2307.23,856.875 2314.71,856.875C2322.18,856.875 2328.25,850.807 2328.25,843.333C2328.25,843.333 2326.57,821.351 2325.56,799.251C2324.55,777.212 2324.2,755.168 2324.2,755.168C2324.2,750.662 2321.03,746.776 2316.62,745.868L2275.42,736.728C2272.38,736.102 2269.22,736.903 2266.84,738.902C2264.46,740.901 2263.13,743.877 2263.23,746.98L2263.04,801.035C2263.22,806.764 2267.42,811.568 2273.07,812.508L2302.81,818.743ZM2304.15,792.171C2304.61,780.732 2304.9,769.945 2305.05,763.002C2305.05,763.002 2284.35,759.074 2284.35,759.074C2284.35,759.074 2286.37,789.976 2286.37,789.976L2304.15,792.171Z"/>
+                </g>
+            </g>
+            <g id="Uppercase">
+            </g>
+            <g id="Symbols">
+            </g>
+        </g>
+    </g>
+</svg>
