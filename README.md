@@ -6,7 +6,7 @@ A simple python script that converts a directory of SVGs to a working TTF or OTF
 This script is currently slightly speciffic to the font I was creating, but can easily be modified for any font.  You can theoretically do everything in Python, but the main purpose of this script is to eliminate the process of importing and manually setting the kerning/spacing of glyphs.  Then, you can make minor tweaks withing the Fontforge GUI editor. 
 
 ### METHODS
-The script first cleans the SVGs using [Scour](https://github.com/scour-project/scour), using multithreading to speed up the process (though it is still slow).  It also logs this activity so it only cleans new or modified files, and thus allows you to make slight modifications to the Fontforge portion of the script and see the results rapidly.  In my case, this process reduced the SVG file size by an average of ~30% without sacrificing quality.
+The script first cleans the SVGs using [Scour](https://github.com/scour-project/scour) (download with pip), using multithreading to speed up the process (though it is still slow).  It also logs this activity so it only cleans new or modified files, and thus allows you to make slight modifications to the Fontforge portion of the script and see the results rapidly.  In my case, this process reduced the SVG file size by an average of ~30% without sacrificing quality.
 
 The script then creates a font object, imports the outlines from the SVG files, and sets the default spacing to be 1/4 of the width of the lowercase "i" glyph from your font set.  This spacing can easily be modified by changing the `spacing` variable in the main function.
 
