@@ -1,15 +1,16 @@
 import concurrent.futures as cfut
+from pathlib import Path
 import subprocess
 import fontforge
 import pickle
-import shutil
+import scour # only here to remind you to pip install scour.  This is run from the command line via subprocess
 import os
 
 
 LOWERS = "abcdefghijklmnopqrstuvwxyz"
 UPPERS = LOWERS.upper() + "1234567890"
 FONT_NAME = "Cartoon Roman"
-BASE_DIR = "FontMaker.nosync/FontMaker"
+BASE_DIR = Path(__file__).resolve().parent
 LOG_PATH = os.path.join(BASE_DIR, "CLEAN_LOG.pickle")
 DIRTY_SVGs = os.path.join(BASE_DIR, "SVGs")
 CLEAN_SVGs = os.path.join(BASE_DIR, "SVGs_cleaned")
@@ -39,7 +40,7 @@ def main():
 
         char.left_side_bearing = round(kern)
         char.width = round(kern * 2 + get_glyph_width(char))
-        if name in "TF":
+        if name in ["T", "F"]:
             char.width = 400
     
     font.generate(os.path.join(BASE_DIR, "{}.ttf".format(FONT_NAME.replace(" ", "_"))))
